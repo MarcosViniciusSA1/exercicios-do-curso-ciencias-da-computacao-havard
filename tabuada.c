@@ -5,7 +5,7 @@
 void tabuada(){
 
     int numero;
-    printf("Digite ate qual numero devemos fazer a tabuada de 1 a 10 dele: ");
+    printf("Vamos imprimir a tabuada de 1 ate: ");
     scanf("%d", &numero);
 
     int i,j;
