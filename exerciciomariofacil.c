@@ -25,6 +25,7 @@ void piramide(){
 
     for(i = 0; i <andar_piramide; i++){
         for(j = 0; j<=espacos;j++){
+            printf(" ");
         }
         espacos--;
         for(k = 0; k<=i; k++){ 
