@@ -25,16 +25,22 @@ void piramide2(){
         scanf("%d", &andar_piramide);
     }while (andar_piramide < 1 && andar_piramide > 8);
     int espaco = andar_piramide - 1;
-    int i,j,k;
+    int i,j,k,m;
     
     for(i=0; i<andar_piramide; i++){//piramide esquerda
-        for(j=0; j<=espaco; j++){
+        for(j=0; j<=espaco; j++){//impressao dos espacos
             printf(" ");
         }
         espaco--;
-        for(k=0; k<=i; k++){
+        for(k=0; k<=i; k++){//impressao das hashes
+            printf("#");
+        }
+        printf("  ");
+        
+        for(m=0; m<=i; m++){//piramide direita
             printf("#");
         }
         printf("\n");
     }
+
 }
